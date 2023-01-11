@@ -278,6 +278,7 @@ class App extends Component {
           {/* LIVE */}
           {/* <Route exact path="/mr-kat" render={(props) => <Portfolio {...props} id="first" data={data}/>}/> */}
           <Route exact path="/" render={(props) => <Portfolio {...props} id="first" data={data}/>}/>
+          <Route exact path="/portfolio" render={(props) => <Portfolio {...props} id="first" data={data}/>}/>
           <Route exact path="/mr-kat" 
             render={(props) => 
               <BandOnlyPage
