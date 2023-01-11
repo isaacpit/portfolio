@@ -277,15 +277,7 @@ class App extends Component {
           {/* <Route exact path="/" component={Portfolio}/> */}
           {/* LIVE */}
           {/* <Route exact path="/mr-kat" render={(props) => <Portfolio {...props} id="first" data={data}/>}/> */}
-          <Route exact path="/portfolio-web" render={(props) => <Portfolio {...props} id="first" data={data}/>}/>
-          <Route exact path="/" 
-            render={(props) => 
-              <BandOnlyPage
-                bgColor={data.colors.purple2}
-                cardColor={data.colors.white}
-              />  
-            }
-          />
+          <Route exact path="/" render={(props) => <Portfolio {...props} id="first" data={data}/>}/>
           <Route exact path="/mr-kat" 
             render={(props) => 
               <BandOnlyPage
