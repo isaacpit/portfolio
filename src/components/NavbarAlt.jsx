@@ -25,8 +25,8 @@ const InPageAnchors = ({text, searchId, statePushUrl}) => {
 const NavbarAlt = () => {
 
   const location = useLocation().pathname;
-  const HOME = "/#/portfolio-web"; // changed from being root so we could put on instagram. instagram doens't play nice w/ hash URLs ... 
-  const IS_HOME = location == "/portfolio-web";
+  const HOME = "/#/portfolio"; // changed from being root so we could put on instagram. instagram doens't play nice w/ hash URLs ... 
+  const IS_HOME = location == "/portfolio";
   console.log("LOCATION=", location);
   console.log("IS_HOME=", IS_HOME);
 
