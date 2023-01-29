@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Constants from './constants/constant';
 import './ForFunTimeline.css';
 
+
 const Intro = (props) => {
   return (
     <div className="w3-margin-bottom">
@@ -9,7 +10,7 @@ const Intro = (props) => {
         <img className="title-logo" src={Constants.img.img_aud}></img>
         <h3 className="title">After Hours</h3>
         <p className="description">
-          In my spare time I enjoy playing basketball, jamming with friends (I play the guitar), and lifting weights. I recently formed a band with some close friends and have some demos to share. We are also scheduled for our first show in September 2022. I also recently achieved a major goal basketball of getting a solid dunk thanks to strength training.
+          In my spare time I shoot hoops, jam with friends (I'm on guitar), and lift. I recently formed a band with some close friends and have some demos to share. 
         </p>
         
       </div> 
@@ -54,19 +55,19 @@ export class MrKatTimeline extends Component {
             <CaptionVid src={require("./../images/lifePics/12-09-22-mr-kat-show/teeth.mp4")} caption="teeth"/>
 
             <CaptionImg src={require("./../images/lifePics/12-09-22-mr-kat-show/cover.jpeg")} caption="101 sign"/>
-            <CaptionImg src={require("./../images/lifePics/12-09-22-mr-kat-show/i-k-1.JPG")} caption="isaac"/>
-            <CaptionImg src={require("./../images/lifePics/12-09-22-mr-kat-show/k-v-j-1.JPG")} caption="isaac"/>
-            <CaptionImg src={require("./../images/lifePics/12-09-22-mr-kat-show/v-2.JPG")} caption="isaac"/>
-            <CaptionImg src={require("./../images/lifePics/12-09-22-mr-kat-show/i-1.JPG")} caption="isaac"/>
-            <CaptionImg src={require("./../images/lifePics/12-09-22-mr-kat-show/j-1.JPG")} caption="isaac"/>
-            <CaptionImg src={require("./../images/lifePics/12-09-22-mr-kat-show/k-1.JPG")} caption="isaac"/>
-            <CaptionImg src={require("./../images/lifePics/12-09-22-mr-kat-show/i-k-v-1.JPG")} caption="isaac"/>
-            <CaptionImg src={require("./../images/lifePics/12-09-22-mr-kat-show/v-k-1.JPG")} caption="isaac"/>
-            <CaptionImg src={require("./../images/lifePics/12-09-22-mr-kat-show/i-3.JPG")} caption="isaac"/>            
-            <CaptionImg src={require("./../images/lifePics/12-09-22-mr-kat-show/j-2.JPG")} caption="isaac"/>
-            <CaptionImg src={require("./../images/lifePics/12-09-22-mr-kat-show/i-k-3.JPG")} caption="isaac"/>
-            <CaptionImg src={require("./../images/lifePics/12-09-22-mr-kat-show/i-2.JPG")} caption="isaac"/>
-            <CaptionImg src={require("./../images/lifePics/12-09-22-mr-kat-show/j-3.JPG")} caption="isaac"/>
+            <CaptionImg src={require("./../images/lifePics/12-09-22-mr-kat-show/i-k-1.JPG")} caption="band"/>
+            <CaptionImg src={require("./../images/lifePics/12-09-22-mr-kat-show/k-v-j-1.JPG")} caption="band"/>
+            <CaptionImg src={require("./../images/lifePics/12-09-22-mr-kat-show/v-2.JPG")} caption="vic - huge hands"/>
+            <CaptionImg src={require("./../images/lifePics/12-09-22-mr-kat-show/i-1.JPG")} caption="isaac - needs longer sleeves"/>
+            <CaptionImg src={require("./../images/lifePics/12-09-22-mr-kat-show/j-1.JPG")} caption="johnny"/>
+            <CaptionImg src={require("./../images/lifePics/12-09-22-mr-kat-show/k-1.JPG")} caption="kat - singin and songin"/>
+            <CaptionImg src={require("./../images/lifePics/12-09-22-mr-kat-show/i-k-v-1.JPG")} caption="band"/>
+            <CaptionImg src={require("./../images/lifePics/12-09-22-mr-kat-show/v-k-1.JPG")} caption="kat n vic"/>
+            <CaptionImg src={require("./../images/lifePics/12-09-22-mr-kat-show/i-3.JPG")} caption="isaac - focus"/>            
+            <CaptionImg src={require("./../images/lifePics/12-09-22-mr-kat-show/j-2.JPG")} caption="johnny"/>
+            <CaptionImg src={require("./../images/lifePics/12-09-22-mr-kat-show/i-k-3.JPG")} caption="isaac n kat"/>
+            <CaptionImg src={require("./../images/lifePics/12-09-22-mr-kat-show/i-2.JPG")} caption="isaac - long neck"/>
+            <CaptionImg src={require("./../images/lifePics/12-09-22-mr-kat-show/j-3.JPG")} caption="johnny - it got warm"/>
             <CaptionImg src={require("./../images/lifePics/12-09-22-mr-kat-show/j-k-1.JPG")} caption="isaac"/>
             
           </div>
@@ -234,7 +235,7 @@ export default class ForFunTimeline extends Component {
             />
 
             <MrKatTimeline
-              caption="Disclaimer: Some of the songs have some swearing and suggestive content. Nothing too outlandish."
+              caption="Disclaimer: Some of the songs have some swearing and suggestive themes. Nothing too outlandish. Such is music."
               bgColor={this.props.bgColor}
               cardColor={this.props.cardColor}
             />

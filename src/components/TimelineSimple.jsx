@@ -21,7 +21,7 @@ export default class TimelineSimple extends Component {
             <h4 id="yearias">March 2022 - Present</h4> 
             <h3 className="title">Software Engineer</h3>
             <p className="description">
-              Currently, I enhance IAS custom reporting and dashboards for digital advertising metrics, specifically working on partner integrations with walled gardens such as Facebook, Twitter, Youtube, and TikTok. I develop on a Spring Cloud architecture using Java for source code, MySQL and Snowflake for DB queries, and Groovy + Spock + PowerMock + Docker test containers for unit/integration tests.
+              Currently, I create solutions for scoring pipelines using AWS Lambda, ECS, Cloudformation, and SQS/SNS. I create custom solutions for various partner data integrations with walled gardens such as Facebook, Twitter, Youtube, and TikTok. I develop on a Spring Cloud architecture using Java for source code, MySQL and Snowflake DBs, Groovy + Spock + LocalStack + Docker test containers for unit/integration tests, and Python to script anything and everything.
             </p>
           </div> 
           <div className="experience-card" style={{minHeight:this.cardSize, backgroundColor: this.props.cardColor}}>
