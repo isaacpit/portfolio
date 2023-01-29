@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "be1c0d17dfd3ed210b97",
+    "revision": "a096f1b1068ab199feac",
     "url": "/static/css/main.2fe5052d.chunk.css"
   },
   {
-    "revision": "be1c0d17dfd3ed210b97",
-    "url": "/static/js/main.370a8966.chunk.js"
+    "revision": "a096f1b1068ab199feac",
+    "url": "/static/js/main.cac03b59.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -412,7 +412,7 @@ self.__precacheManifest = [
     "url": "/static/media/vr-piano.abb54bea.png"
   },
   {
-    "revision": "fba4ac5c2c035223448a0750116dc0e0",
+    "revision": "138d87c62664d92c80f452d85d6c1b48",
     "url": "/index.html"
   }
 ];
