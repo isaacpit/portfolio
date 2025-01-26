@@ -1,6 +1,6 @@
 {
-  "name": "simple-react-router-website",
-  "homepage": "https://isaacpit.github.io/portfolio-isaacpit.com/",
+  "name": "isaacpit-portfolio-page",
+  "homepage": "https://isaacpit.com",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
@@ -14,7 +14,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "start": "BROWSER='firefox' react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
