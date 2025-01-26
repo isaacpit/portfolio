@@ -19,9 +19,9 @@ export default class TimelineSimple extends Component {
           <div className="experience-card" style={{minHeight:this.cardSize, backgroundColor: this.props.cardColor}}>
             <img id="iaslogo" className="year" src={require("./../images/lifePics/ias-logo.jpg")}></img>
             <h4 id="yearias">March 2022 - Present</h4> 
-            <h3 className="title">Software Engineer</h3>
+            <h3 className="title">Staff Software Engineer</h3>
             <p className="description">
-              Currently, I create solutions for scoring pipelines using AWS Lambda, ECS, Cloudformation, and SQS/SNS. I create custom solutions for various partner data integrations with walled gardens such as Facebook, Twitter, Youtube, and TikTok. I develop on a Spring Cloud architecture using Java for source code, MySQL and Snowflake DBs, Groovy + Spock + LocalStack + Docker test containers for unit/integration tests, and Python to script anything and everything.
+              Currently, I create solutions for scoring pipelines using AWS Lambda, ECS, Cloudformation, and SQS/SNS. I create custom solutions for various partner data integrations with walled gardens such as Facebook, Twitter, Youtube, and TikTok. My language of choice is Java with Spring Boot. I heavily use MySQL, Databricks, Snowflake, DynamoDB, for my data stores and databases. For unit/integration tests I use Groovy + Spock + LocalStack + Docker test containers. For anything requiring scripting I use Python for automation and local scripts.
             </p>
           </div> 
           <div className="experience-card" style={{minHeight:this.cardSize, backgroundColor: this.props.cardColor}}>

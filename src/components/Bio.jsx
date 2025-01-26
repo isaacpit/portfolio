@@ -20,14 +20,15 @@ export default class Bio extends Component {
 
           <div className="w3-third avi-container" >
             <h1>Howdy, my name is Isaac Pitblado</h1>
+
+            <p style={{fontSize: "1.25em"}}>
+              I am a Staff software engineer at Integral Ad Science developing microservices using Java Spring and AWS Lambda / ECS / EKS to directly fetch and score more than 300 million social media posts daily for both realtime and batch based pipelines.
+            </p>
+            <p style={{fontSize: "1.25em"}}>
+              I lead a high performing team of 5 engineers and directly report to 10+ product managers and stakeholders for delivering at least 8 high impact "press release" level projects every quarter.
+            </p>
             <p style={{fontSize: "1.25em"}}>
               I am a Texas A&M University Aggie alum who graduated with a BS in Computer Science with minors in Game Development and Cyber Security.
-            </p>
-            <p style={{fontSize: "1.25em"}}>
-              I am a software engineer @ Integral Ad Science developing in a Java Spring Cloud micro service context enhancing and creating various dashboards and custom reporting functions. I have been working fully remotely for 2 years now.
-            </p>
-            <p style={{fontSize: "1.25em"}}>
-              My team's emphasis is to increase value add from our integrations with social media partners such as Facebook, Twitter, TikTok, and Youtube in an effort to transform customer needs into direct lines of service into IAS's Signal platform.
             </p>
           </div>
         </div>
