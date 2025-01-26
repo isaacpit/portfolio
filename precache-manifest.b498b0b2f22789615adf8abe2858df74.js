@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "34649b600ef0f4c03907",
-    "url": "/portfolio-isaacpit.com/static/css/main.5a8dd920.chunk.css"
+    "revision": "d51962d0472d33d5581e",
+    "url": "/portfolio-isaacpit.com/static/css/main.1e227073.chunk.css"
   },
   {
-    "revision": "34649b600ef0f4c03907",
-    "url": "/portfolio-isaacpit.com/static/js/main.576ab18e.chunk.js"
+    "revision": "d51962d0472d33d5581e",
+    "url": "/portfolio-isaacpit.com/static/js/main.d4b989dd.chunk.js"
   },
   {
     "revision": "29a070189bf7eb708a3f",
     "url": "/portfolio-isaacpit.com/static/js/runtime~main.9f4107bc.js"
   },
   {
-    "revision": "09588ba353c7fb7c9130",
-    "url": "/portfolio-isaacpit.com/static/css/2.3c283201.chunk.css"
+    "revision": "7a99534ceaf14f7fc03e",
+    "url": "/portfolio-isaacpit.com/static/css/2.d9e8b364.chunk.css"
   },
   {
-    "revision": "09588ba353c7fb7c9130",
-    "url": "/portfolio-isaacpit.com/static/js/2.68949ca6.chunk.js"
+    "revision": "7a99534ceaf14f7fc03e",
+    "url": "/portfolio-isaacpit.com/static/js/2.c25679f0.chunk.js"
   },
   {
     "revision": "cec4ccb30e41198c7b0a5e117c55eb2b",
@@ -412,7 +412,7 @@ self.__precacheManifest = [
     "url": "/portfolio-isaacpit.com/static/media/vr-piano.abb54bea.png"
   },
   {
-    "revision": "0088b310daad57ec7803afbe9e375901",
+    "revision": "1df4eed9462e814a443849af2bc1a8cd",
     "url": "/portfolio-isaacpit.com/index.html"
   }
 ];
